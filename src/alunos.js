@@ -8,7 +8,7 @@ const alunos = [
 ]
 
 function alunosAprovados(alunos) {
-    return alunos.nota > 5
+    return alunos.nota >= 6
 }
 
 const aprovados = alunos.filter(alunosAprovados)
